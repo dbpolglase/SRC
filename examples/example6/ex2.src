@@ -1,0 +1,26 @@
+//
+// Interfaz de la consola para comunicaciones asincronas o bien del
+// ges o de los procesos de errores u otros.
+//
+//
+CONST MAX = 10; 
+CONST VERSION = 1; 
+
+CLASE EX2{
+  SimpleMetodoOut:: in  char caracter,
+		 int entero,
+		 long largo,
+		 float flotante,
+		 double doble 
+		out int result = VERSION;
+  ArrayMetodoOut:: in  char[] cadena,
+                 char<MAX> caracteres,
+		 int<MAX> entero,
+		 long<MAX> largo,
+		 float<MAX> flotante,
+		 double<MAX> doble 
+		out char[] result= VERSION;
+  Count:: in  char[] cadena,
+	  out int result = VERSION;
+}
+
