@@ -37,8 +37,10 @@ A simple example of using SRC.
 
 server.c include the code for the server.
 
-Open the port. (SRC_Open)
+Open local Address . (SRC_Open)
+
 Infinite loop waiting for request. (SRC_Loop).
+
 Implement methods for class EX1,EX2 and EX3 with C functions.
 
 ## Client
