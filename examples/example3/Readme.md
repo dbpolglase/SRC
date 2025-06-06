@@ -49,6 +49,9 @@ Create one Thead for the SRC:
 
 In the main thread wait for something in the standard input by a pool and exit when happen.
 
+> [!IMPORTANT]
+> Remember SRC is **not thread-safe**  so don't call SRC_Loop in several threads and in case you make a server/client SRC process be careful,
+> look at example7 for details.
 
 ## Client
 
